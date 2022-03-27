@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/**********
+Universal Styles
+**********/
+header,
+nav,
+aside,
+article,
+footer,
+section,
+main,
+figure,
+figcaption {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/* The Afrah font is used for main page headings (H1) */
+@font-face {
+  font-family: 'afrah';
+  src: url('fonts/afrah/Afrah-Regular.eot');
+  src: url('fonts/afrah/Afrah-Regular.ttf') format('truetype'),
+      url('fonts/afrah/Afrah-Regular.woff') format('woff'),
+      url('fonts/afrah/Afrah-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+element.style {
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+head {
+    display: none;
+}
+
+  
+  
+body {
+  font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+#message {
+
+text-align: center;
+padding-left: 30px;
+
+}
+
+
+
+
+.text-center {
+    text-align: center!important;
+}
+p, h3 {
+    margin-top: 6rem;
+    margin-bottom: 9rem;
+    font-size: 1.8rem;
+    color: #c0c303;
+}
+
+
+
+.boxes {
+
+ text-align: center !important;
+ margin-top: 100px;
+ margin-left: 250px;
+ display: flex;
+ border:0.80em; 
+ COLOR:var(--primary-color);
+ border-color:#ffff;
+ font-size: 20px;
+
+
+ 
+}
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background:url("images/background.jpeg");
+  }
+
+
+ boxes {
+
+    padding-top: -150px;
+
+  }
+
+
+  #weather  {
+
+  align-items: center;
+  padding-top: 20%;
+  padding-left: 40px;
+
+  }
+
+  a {
+
+    align-items: flex;
+
+  }
+
+
+  .islamorada {
+
+     text-align: center;
+     padding-top: -705px;
+      display: flex;
+      justify-content: space-between;
+      font-style: aqua;
+      font-family: "afrah";
+
+  }
+ 
+  main {
+   
+    box-shadow: 4px 4px 12px;
+    max-width: 1024px;
+    display: block;
+    margin: 0 auto;
+    padding: 24px 0;
+    margin-top: 9px;
+    background-color: rgb(17, 20, 41);
+  }
+  h1 {
+    text-align: center;
+    padding-top: 45px;
+    color:aqua;
+    font-family: "afrah";
+    font-size: 4.5rem;
+  }
+ 
+  button {
+    padding: 10px;
+    margin: 10px;
+    color: #212529;
+    
+    
+
+  }
+
+  label {
+    color: aqua;
+  
+  }
